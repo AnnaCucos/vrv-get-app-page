@@ -1,0 +1,18 @@
+body {
+	margin: 0;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #1b1a26;
+} 
+
+.container {
+	margin: 0 auto;
+	max-width: 1050px;
+	padding: 0 15px;	
+ }
+
+ h1, h2, h3, h4, h5, h6, p, ul {
+ 	margin: 0;
+ }

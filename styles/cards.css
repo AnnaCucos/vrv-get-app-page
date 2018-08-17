@@ -1,0 +1,243 @@
+.cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+.sub-title-cards {
+	font-family: MarkPro;
+	font-size: 24px;
+	font-weight: 500;  
+	line-height: 1.42;
+	color: #f9f9fa;
+	margin: 206px 0 5px 0;
+}
+
+.first-cards {
+	position: relative;
+	flex: 0 0 33%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.second-cards {
+	position: relative;
+	flex: 0 0 50%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.button-card {
+	position: absolute;
+	display: block;
+	right: 35px;
+	bottom: 45px;
+}
+
+.commun-t {
+	position: absolute;
+	font-family: Rubik-Light;
+	font-size: 24px;
+	color: #1b1a26;
+	top: 33px;
+	text-transform: uppercase;
+}
+
+.play-station-title {	
+	right: 107px;
+}
+
+.xbone-title {
+	right: 122px;
+}
+
+.apple-tv-title {
+	right: 122px;
+}
+
+.roku-title {
+	right: 171px;
+}
+
+.fire-tv-title {
+	right: 145px;
+}
+
+.android-title {
+	right: 102px;
+}
+
+.switch-title {
+	right: 111px;
+}
+
+.img-dimension{
+	display: block;
+	max-width: 100%;
+	width: 100%;
+}
+
+.button-img {
+	max-width: 100%;
+}
+
+@media screen and (max-width:1024px) {
+	.commun-t { 
+		font-size: 22px;
+		top: 29px;	
+	}
+
+	.play-station-title {	
+	 	right: 60px;
+	}
+
+	.xbone-title {
+	 	right: 80px;
+	}
+
+	.apple-tv-title {
+	 	right: 90px;
+	}
+
+	.roku-title {
+	 	right: 140px;
+	}
+
+	.fire-tv-title {
+	 	right: 110px;
+	}
+
+	.android-title {
+	 	right: 75px;
+	}
+
+	.switch-title {
+		right: 85px;
+	}
+
+	.button-card {
+		right: 30px;
+		bottom: 35px;		
+		width: 130px;
+	}
+} 
+
+@media screen and (max-width:800px) {
+	.commun-t { 
+		font-size: 16px;
+		top: 28px;	
+	}
+
+	.play-station-title {	
+		right: 30px;
+	}
+
+	 .xbone-title {
+		right: 70px;
+	}
+
+	.apple-tv-title {
+		right: 80px;
+	}
+
+	.roku-title {
+		right: 130px;
+	}
+
+	.fire-tv-title {
+		right: 100px;
+	}
+
+	.android-title {
+		right: 65px;
+	}
+
+	.switch-title {
+		right: 69px;
+	}
+
+	.button-card {
+		right: 25px;
+		bottom: 30px;
+		width: 100px;
+	}
+} 
+
+@media screen and (max-width:568px) {
+	.sub-title-cards {
+		font-size: 21px;
+		text-align:center;
+	}
+
+	.first-cards {
+		flex:0 0 100%;
+		max-width: 330px;
+		height: 275px;
+		overflow: hidden;
+		margin: 0 10px;	
+	}
+
+	.second-cards {
+		flex: 0 0 100%;
+		max-width: 330px;
+		height: 275px;
+		overflow: hidden;
+		margin: 0 10px;
+	}
+
+	.play-station-title {	
+		right: 83px;
+	}
+
+	.xbone-title {
+		right: 112px;
+	}
+
+	.apple-tv-title {
+		right: 122px;
+	}
+
+	.roku-title {
+		right: 120px;
+	}
+
+	.android-title {
+		right: 90px;
+	}
+
+	.fire-tv-title {
+		right: 70px;
+	}
+
+	.switch-title {
+		right: 20px;
+	}
+
+	.button-img {
+		max-width: 100%;
+	}
+
+	.img-dimension {
+		display: block;
+		max-width: none;
+		width: auto;
+		min-width: 100%;
+		min-height: 100%;
+		object-fit: contain;
+	}
+
+	.commun-t {
+		font-size: 18px;
+		top: 25px;
+	}
+
+	.button-card {
+		right: 30px;
+		bottom: 35px;
+		width: 110px;
+	}
+
+	.cards-container {
+		justify-content: center;
+	}
+}
